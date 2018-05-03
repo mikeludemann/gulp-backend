@@ -2,6 +2,7 @@
 
 var gulp = require('gulp');
 var imagemin = require('gulp-imagemin');
+var phpmin = require('@aquafadas/gulp-php-minify');
 var htmlmin = require('gulp-htmlmin');
 var autoprefixer = require('gulp-autoprefixer');
 var browsersync = require('browser-sync').create();
